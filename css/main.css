@@ -239,6 +239,7 @@ ul.active {
     }
 
     .main-nav {
+        height: auto;
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
