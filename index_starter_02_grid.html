@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starter Company</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+    <section class="container header">
+
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i class="fas fa-bars"></i>
+            </span>
+            <a href="#" class="logo">logo</a>
+            <ul class="main-nav" id="js-menu">
+                <li> <a href="#" class="nav-links">Home</a> </li>
+                <li> <a href="#" class="nav-links">Produkte</a> </li>
+                <li> <a href="#" class="nav-links">Über uns</a> </li>
+                <li> <a href="#" class="nav-links">Kontakt</a> </li>
+            </ul>
+        </nav>
+
+    </section>
+    <section class="bg-light text-center">
+        <div class="container container--narrow">
+            <p>Lorem, ipsum dolor.</p>
+            <h1>Responsive layouts don’t have to be a struggle</h1>
+
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 class="text-center">Quality Designs</h2>
+            <div class="split">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aperiam inventore nemo, asperiores dolorem
+                        nisi voluptate omnis quam sit doloremque expedita architecto dicta, at consequatur.</p>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aperiam inventore nemo, asperiores dolorem
+                        nisi voluptate omnis quam sit doloremque expedita architecto dicta, at consequatur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-dark">
+        <div class="container">
+            <div class="split">
+
+                <div>
+                    <h2>Made custom for you</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel ipsum dicta fuga vero aliquam! Officiis?</p>
+                </div>
+                <div>
+                    <img src="img/testimonial_01.jpg" alt="man standing on mountain edge looking at sunset">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary">
+        <div class="container">
+            <div class="split">
+                <div>
+                    <img src="img/testimonial_02.jpg" alt="foggy mountains with sun setting behind them">
+                </div>
+                <div>
+                    <h2>Created with care</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis id hic at vel voluptatem reiciendis
+                        aut,
+                        esse aperiam? Quia aperiam nesciunt sint iste laboriosam quibusdam minus molestias blanditiis esse!
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam sed maiores doloribus tempore optio, fuga. Voluptates aliquam, voluptatibus maiores soluta. Temporibus asperiores provident quisquam eius cum sit molestias! Dolor, aspernatur?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	    <section class="bg-light">
+        <div class="container">
+            <h2 class="text-center">Was Brauchst Du?</h2>
+            <div class="split">
+                <div>
+				<h3>Contact</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aperiam inventore nemo, asperiores dolorem
+                        nisi voluptate omnis quam sit doloremque expedita architecto dicta, at consequatur.</p>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aperiam inventore nemo, asperiores dolorem
+                        nisi voluptate omnis quam sit doloremque expedita architecto dicta, at consequatur.</p>
+                </div>
+				                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure aperiam inventore nemo, asperiores dolorem
+                        nisi voluptate omnis quam sit doloremque expedita architecto dicta, at consequatur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	
+	
+	
+    <script>
+let mainNav = document.getElementById("js-menu");
+let navBarToggle = document.getElementById("js-navbar-toggle");
+let icon = document.getElementsByClassName("fa-bars")[0];
+
+navBarToggle.addEventListener("click", function () {
+  mainNav.classList.toggle("active");
+  icon.classList.toggle("fa-times");
+  icon.classList.toggle("fa-bars");
+        });
+    </script>
+</body></html>
